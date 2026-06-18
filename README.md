@@ -150,6 +150,8 @@ transactions
 - All pages work on 1024px+ screens; sidebar navigation collapses on small screens
 
 ---
+## STREAMLIT URL
+https://toy-inventory-system-kemfwpobuhbhxwdkyqrcoy.streamlit.app/Toys
 
 ## 🛠️ Common Issues
 
@@ -159,3 +161,4 @@ transactions
 | Other computers can't connect | Use `--server.address 0.0.0.0`; check Windows Firewall allows port 8501 |
 | Database locked (SQLite) | SQLite WAL mode is enabled; still limit to ~10 concurrent users |
 | Want more concurrent users | Migrate to PostgreSQL (see above) |
+
